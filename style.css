@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4e2ba;
+}
+.slot-frame {
+  border: 10px solid #8b4513;
+  padding: 10px;
+  display: inline-block;
+  background-color: #fff8dc;
+}
+.reels-container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  gap: 5px;
+}
+.symbol {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border: 2px solid #333;
+}
+
+#wallet {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}

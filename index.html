@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toni El Bandolero Slot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Toni El Bandolero Slot</h1>
+  <div class="slot-frame">
+    <div class="reels-container" id="reels"></div>
+  </div>
+  <div id="wallet">Saldo: €<span id="balance">100</span></div>
+  <label for="bet">Puntata per giro:</label>
+  <select id="bet">
+    <option value="0.5">€0.50</option>
+    <option value="1" selected>€1.00</option>
+  </select>
+  <button onclick="spin()">SPIN</button>
+  <p id="message"></p>
+  <audio id="bonusSound" src="bonus.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
